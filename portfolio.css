@@ -41,8 +41,8 @@
     display:flex;
 }
 img{
-    border-radius: 500;
-
+    width: 200px;
+    height: 200px;
 }
 #left-section{
     padding: 40px 50px;
@@ -65,4 +65,14 @@ button:hover{
     align-content: center;
 }
 
+#posts {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
 
+.card{
+    background-color:aquamarine;
+    color:white;
+    padding: 150px;
+}
